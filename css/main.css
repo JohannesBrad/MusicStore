@@ -1,0 +1,295 @@
+/* pagiande presentacion de proyecto*/
+
+body{
+  font-family: arial;
+}
+header{
+  width: 100%;
+  background-color: black;
+  color: white;
+  box-sizing: border-box;
+  padding-left: 30px;
+  padding-right: 30px;
+  position: fixed;
+  top: 0px;
+  z-index: 100;
+}
+.title{
+  float: left;
+  padding: 20px;
+  background-color: greenyellow
+}
+.nav-site{
+  float: right;
+  background-color: skyblue;
+}
+.nav-site li{
+  float: left;
+  padding: 20px;
+  transition:all 0.3s linear;
+}
+.nav-site li:hover{
+  background-color: #434343;
+
+}
+.clear{
+  clear: both;
+}
+.img-principal{
+  margin-top: 55px;
+  width: 100%;
+  height: 614px;
+  background-size: cover;
+  background-image: url(../img/bateria2.jpeg);
+  /*position: relative;*/
+}
+
+h1{
+  font-size: 20px;
+  font-weight: bold;
+}
+.contenedor{
+  width: 1280px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+/*bloque 2*/
+
+h2{
+  margin-top: 80px;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 25px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ebebeb;
+}
+.item-drum{
+  margin-top: 30px ;
+  margin-left: 15px;
+  margin-right: 15px;
+  box-sizing: border-box;
+  width: 301px;
+  float: left;
+  overflow:hidden;
+  /*position: relative;*/
+  /*border: 1px solid gray;*/
+  /*filter: blur(5px);*/
+}
+.item-drum:hover img{
+  transform:scale(1.1);
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s;
+  /*filter: none;*/
+}
+img{
+  width: 100%;
+}
+.item1{
+  position: absolute;
+  background-color: black;
+  color: white;
+  padding: 8px 16px;
+}
+.no-margin{
+  margin-right: 0px;
+}
+
+/*bloque 3 #c2bfbf*/
+
+.texto1{
+  margin-top: 30px ;
+  margin-left: 15px;
+  margin-right: 15px;
+  line-height: 1.4;
+}
+.item-person{
+  margin-top: 30px ;
+  margin-left: 15px;
+  margin-right: 15px;
+  box-sizing: border-box;
+  width: 301px;
+  float: left;
+  line-height: 1.4;
+}
+
+.imgitem:hover{
+  filter: grayscale(80%);
+  transition:all .5s ease-in-out; /*nuevo*/
+}
+
+h3{
+  padding-top: 10px ;
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+.band{
+  padding-top: 10px ;
+  padding-bottom: 10px;
+  display: block;
+  color: gray;
+}
+.texto2{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 1.2;
+
+}
+.contac{
+  background-color:#ebebeb ;
+  padding:10px;
+  text-align: center;
+  display: block;
+  margin-top: 10px;
+  font-size: 18px;
+  transition: all 0.3s linear;
+}
+.contac:hover{
+  background-color: #959595;
+}
+.no-margin{
+  margin-right: 0px;
+}
+
+/*-------bloque4----*/
+
+.texto3{
+  margin-top: 30px ;
+  margin-left: 25px;
+  margin-right: 25px;
+  line-height: 1.2;
+}
+
+input{
+  width: 1230px;
+  margin-top: 15px ;
+  margin-left: 15px;
+  display: block;
+  padding: 7px;
+  border: 1px solid #c2bfbf;
+  font-size: 18px;
+
+}
+
+.btn{
+  padding:15px;
+  margin-top: 20px;
+  margin-left: 15px;
+  background-color: black;
+  color: white;
+  display: inline-block;
+  transition: all 0.3s linear;
+}
+
+.btn:hover{
+  background-color:#ebebeb ;
+  color: black;
+}
+footer{
+
+  padding: 35px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+
+constancia / 24/10/18 12/11/18 
+234618365A 
+
+080011800 /2
+19999999
+
+104 /3 / 2
+
+j0h@nn3s181
+
+
+
+612
+	alfalar0
+	alfredo1249
+
+Estimado Jorge
+	
+Se procede con la restauracion del equipo de computo, realizando lo siguiente:
+Backup de informacion
+Reisntalacion del SO
+Instalacion y configuracion de programas base
+Instalacion y configuracion del Visual Asist y Comsof
+Configuracion de Unidades de red
+Configuracion de impresoras
+	
+Se han realizado las pruebas de reporte del visual asist y comsoft quedando operativo
+	
+	10.51.13.68
+
+	CPU00834
+	sosezapata2014
+
+	
+antena 	
+	
+	PENDIENTE DE CARGADOR
+	TECLADOS
+	
+	cynthia.paypay@stgperu.com
+	
+	Estimada Cynthia, buenos dias.
+	
+	Reciba un cordial saludo. Actualmente nosotros contamos con equipos PDA que fueron adquirdios en Dicembre del 2016 aproximadamente con ustedes. El motivo del correo es 
+	
+	51 1 6241400 | +51 1 719 7398
+
+	
+	
+	cl /
+	
+	Estimado Orlando
+	Se procede con la revision y actualizacion del driver USB 3.0, se hacen las pruebas de conexion de dispositivos externos quedando operativo.
+	Para el controlador de red (Controller Network), WIndows Update no logoa actualizar, sin embargo el driver LAN funciona sin problemas, se hacen pruebas de conexion por cable de red quedando operativo.
+	
+	Estaremos coordinando para las pruebas.
+	
+	Nuestras oficinas se encuentran en : Calle Chinchon 823 – San Isidro, en horario de L-V de 9:00am a 18:00pm.
+
+	673 /
+	10.51.13.56
+	Luis paredes
+	
+	uvan2018
+	
+	GPUPDATE – Forzar la actualización de directivas
+	
+	
+	guia / ruben /
+	
+	12345678
+	48a8
+	
+	
+	
+	
+	
+	
+	
+	cpu00612 / labotaroiio de ocntrol de proceso
+	
+	turno de 11 de l anoche a 7 de la mañana
+	
+	alfredo Alarcon
+	
+	
+	
+Tipos de repositorios
+
+Los repositorios oficiales contienen las aplicaciones que tu distribución soporta y que, dependiendo de sus políticas, muchas veces cuentan con un protocolo de revisión muy riguroso para asegurarse de que todos los paquetes que contienen se encuentran en estado óptimo y no representan riesgos de seguridad o estabilidad para el sistema. Por ejemplo, en Arch Linux, algunos de los repositorios oficiales son Core, Extra y Community. Cada uno de ellos contiene paquetes de diferente índole como systemd, xorg, chromium y gnome por mencionar algunos.
+	
+Los repositorios no oficiales contienen paquetes de aplicaciones no soportadas directamente por la distribución, por lo tanto carecen de los protocolos de revisión que mencionamos anteriormente y, aunque contienen aplicaciones muy útiles para tu sistema, deben ser manejados con cuidado. Estos repositorios son mantenidos por comunidades organizadas de usuarios y al ser no oficiales no están incluidos por defecto en las listas de repositorios, pero pueden agregarse muy fácilmente. Por ejemplo, para el caso de Ubuntu, los repositorios no oficiales son los PPA (de Personal Package Archive) y en ellos podrás encontrar paquetes como VLC, Turpial y Gimp.
+	
+	
+	tv box + alto el nucleo 
+	app perfect player 
+	aptoide tv
