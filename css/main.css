@@ -5,18 +5,22 @@ body{
 }
 header{
   width: 100%;
-  background-color: rgb(235, 69, 69);
-  color: white;
+  background-color:#fff;
+  color: #242424;
   box-sizing: border-box;
   padding-left: 30px;
   padding-right: 30px;
   position: fixed;
   top: 0px;
   z-index: 100;
+  border-bottom: 1px solid #d7d7d7;
 }
+
 .title{
   float: left;
   padding: 25px 40px;
+  font-size: 20px;
+  font-weight: bold;
 
 }
 .nav-site{
@@ -32,23 +36,86 @@ header{
   background-color: #434343;
 
 }
-.clear{
-  clear: both;
-}
-.img-principal{
-  margin-top: 55px;
-  width: 100%;
-  height: 614px;
-  background-size: cover;
-  background-image: url(../img/bateria2.jpeg);
-  /*position: relative;*/
+
+/*------------- HERO --------------*/
+
+.hero {
+  display: flex;
+  height: 80vh;
+  top:75px;
+  position: relative;
+  justify-content: center;  
+  background-color: #FFF;;
 }
 
-h1{
-  font-size: 20px;
-  font-weight: bold;
+.hero_contenedor {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;         
+  flex-wrap:nowrap;
+  margin: 20px 0;
 }
-.contenedor{
+.hero_contenedor_texto {
+  width: 50%;
+  margin: 5px 30px;
+  padding: 20px 0;
+  text-align: left;
+  
+}
+
+.hero_contenedor_img {
+  width: 50%;
+  margin: 5px 30px;
+}
+
+
+h2.hero_tit_prod{
+  /* background-color: #1c4464; */
+  font-size: 48px;
+  line-height: 58px;
+  color: #000;;
+ 
+}
+
+.hero_descripcion_prod{
+  /* background-color: #39f057; */
+  font-size: 16px;
+  line-height: 20px;
+  padding: 5px 45px;
+}
+
+.hero_botones{
+  display: flex;
+  padding: 5px 45px;
+  margin: 20px 0 10px;
+
+}
+.btn_vermas{
+  padding: 14px 30px;
+  color: #fff;
+  text-decoration: none;
+  background-color: #242424;
+  /* border-radius: 5px; */
+  display: block;
+  margin-right: 20px;
+}
+.btn_agregar {
+  padding: 14px 30px;
+  color:#242424;
+  text-decoration: none;
+  background-color: #ffffff;
+  border:1px solid #242424;
+  display: block;
+  margin-right: 20px;
+}
+
+
+/*------------- MAIN --------------*/
+.main{
+  /* position: relative; */
+  margin-top: 75PX;;
   width: 100%;
   box-sizing: border-box;
   display: flex;
@@ -56,8 +123,88 @@ h1{
   flex-direction: column;
   align-items: center;
   background-color: #f4f5f8;
-
 }
+.cc{
+  background-color: rebeccapurple;
+}
+.box{
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  margin:10px;
+}
+.atenciones{
+  display: flex;
+  background-color: crimson;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  width: 1280px;
+  margin-top: 110px;
+}
+
+.atenciones_box{
+  background-color: rgb(201, 77, 101);
+  width: 100%;
+  height: 150px;
+  margin: 10px;
+  flex-wrap: nowrap;
+}
+
+
+.at_textos{
+  color: #000;
+}
+
+/* CATEGORIAS */
+
+/* .categorias{
+
+} */
+.categorias{
+background-color: #fff;;
+  width: 100%;
+  
+}
+.contenedor_categorias{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+background-color: #fff;;
+  margin: 40px 0;
+  /* margin:30px 20px; */
+  
+}
+
+.item_categoria{ 
+  margin: 0 20px 25px 20px;
+  box-sizing: border-box;
+  width: 280px;
+  float: left;
+  overflow:hidden;
+  border: 1px solid  #d7d7d7;
+}
+img.img_categoria{
+  height: 50%;
+}
+.card_categoria{
+  padding-bottom : 25px ;
+  background-color: #fff;
+  margin-top: -3px;
+  
+  }
+  
+  .card_categoria_titulo{
+    font-size: 16px;
+    color: #242424;
+    font-weight: 400;
+    padding: 14px 8px;
+    text-align: center;
+  }
+
+/* categprias */
+
 .bloque2{
   width: 1280px;
   /* background-color: #f4f5f8; */
@@ -240,100 +387,54 @@ footer{
 }
 
 
-constancia / 24/10/18 12/11/18
-234618365A
-
-080011800 /2
-19999999
-
-104 /3 / 2
-
-j0h@nn3s181
 
 
+/* ***************************** *
+*          RESPONSIVE            *
+* ***************************** */
+/* @media screen and (min-width: 480px) {
+  .contenedor_categorias{
+    background-color: green;
+  }
+  .owl-carousel .owl-theme{
+    display: none;
+  }
+} */
+@media screen and (max-width: 480px) {
+  .nav-site{
+    display: none;
+  }
+.hero {
+    width: 100%;
+    height:100%;
+    margin:10px
+}
+.hero_contenedor {
+  width: 100%;
+  height:100%;
+  display: flex;        
+  flex-wrap: wrap;
+  margin:5px
+}
+.hero_contenedor_texto {
+  width: 100%;
+}
+.hero_contenedor_img {
+  width: 100%;
+}
 
-612
-	alfalar0
-	alfredo1249
+h2.hero_tit_prod{
+  font-size: 26px;
+  line-height: 28px;
+ 
+}
+/* .item_categoria{ 
+  margin: 0 ;
+  box-sizing: border-box;
+  width: 100%;
+  
+  overflow:hidden;
+  border: 1px solid  #d7d7d7;
 
-Estimado Jorge
-
-Se procede con la restauracion del equipo de computo, realizando lo siguiente:
-Backup de informacion
-Reisntalacion del SO
-Instalacion y configuracion de programas base
-Instalacion y configuracion del Visual Asist y Comsof
-Configuracion de Unidades de red
-Configuracion de impresoras
-
-Se han realizado las pruebas de reporte del visual asist y comsoft quedando operativo
-
-	10.51.13.68
-
-	CPU00834
-	sosezapata2014
-
-
-antena
-
-	PENDIENTE DE CARGADOR
-	TECLADOS
-
-	cynthia.paypay@stgperu.com
-
-	Estimada Cynthia, buenos dias.
-
-	Reciba un cordial saludo. Actualmente nosotros contamos con equipos PDA que fueron adquirdios en Dicembre del 2016 aproximadamente con ustedes. El motivo del correo es
-
-	51 1 6241400 | +51 1 719 7398
-
-
-
-	cl /
-
-	Estimado Orlando
-	Se procede con la revision y actualizacion del driver USB 3.0, se hacen las pruebas de conexion de dispositivos externos quedando operativo.
-	Para el controlador de red (Controller Network), WIndows Update no logoa actualizar, sin embargo el driver LAN funciona sin problemas, se hacen pruebas de conexion por cable de red quedando operativo.
-
-	Estaremos coordinando para las pruebas.
-
-	Nuestras oficinas se encuentran en : Calle Chinchon 823 – San Isidro, en horario de L-V de 9:00am a 18:00pm.
-
-	673 /
-	10.51.13.56
-	Luis paredes
-
-	uvan2018
-
-	GPUPDATE – Forzar la actualización de directivas
-
-
-	guia / ruben /
-
-	12345678
-	48a8
-
-
-
-
-
-
-
-	cpu00612 / labotaroiio de ocntrol de proceso
-
-	turno de 11 de l anoche a 7 de la mañana
-
-	alfredo Alarcon
-
-
-
-Tipos de repositorios
-
-Los repositorios oficiales contienen las aplicaciones que tu distribución soporta y que, dependiendo de sus políticas, muchas veces cuentan con un protocolo de revisión muy riguroso para asegurarse de que todos los paquetes que contienen se encuentran en estado óptimo y no representan riesgos de seguridad o estabilidad para el sistema. Por ejemplo, en Arch Linux, algunos de los repositorios oficiales son Core, Extra y Community. Cada uno de ellos contiene paquetes de diferente índole como systemd, xorg, chromium y gnome por mencionar algunos.
-
-Los repositorios no oficiales contienen paquetes de aplicaciones no soportadas directamente por la distribución, por lo tanto carecen de los protocolos de revisión que mencionamos anteriormente y, aunque contienen aplicaciones muy útiles para tu sistema, deben ser manejados con cuidado. Estos repositorios son mantenidos por comunidades organizadas de usuarios y al ser no oficiales no están incluidos por defecto en las listas de repositorios, pero pueden agregarse muy fácilmente. Por ejemplo, para el caso de Ubuntu, los repositorios no oficiales son los PPA (de Personal Package Archive) y en ellos podrás encontrar paquetes como VLC, Turpial y Gimp.
-
-
-	tv box + alto el nucleo
-	app perfect player
-	aptoide tv
+} */
+}
