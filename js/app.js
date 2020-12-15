@@ -1,18 +1,10 @@
-$(document).ready(function(){
-  $('.owl-carousel').owlCarousel({
-     // loop:true,
-     margin:10,
- 
-    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:3
-        },
-        1000:{
-            items:5
-        }
-    }
-})
-})
+// JavaScript Document
+$(document).ready(function() {
+    $('#autoWidth').lightSlider({
+        autoWidth:true,
+        loop:true,
+        onSliderLoad: function() {
+            $('#autoWidth').removeClass('cS-hidden');
+        } 
+    });  
+  });

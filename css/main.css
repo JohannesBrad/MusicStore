@@ -37,6 +37,18 @@ header{
 
 }
 
+.nav-site li a{
+  list-style: none;
+  text-decoration: none;
+  color: #000;
+
+}
+.brand img{
+  width: 5%;
+  /* height: 100px; */
+  float: left;
+  padding: 25px 40px;
+}
 /*------------- HERO --------------*/
 
 .hero {
@@ -124,9 +136,17 @@ h2.hero_tit_prod{
   align-items: center;
   background-color: #f4f5f8;
 }
-.cc{
-  background-color: rebeccapurple;
+
+.title_section{
+  width: 95%;
 }
+
+.title_section h2{
+  color: #616161;
+
+}
+/* box de atenciones  */
+
 .box{
   width: 100px;
   height: 100px;
@@ -157,34 +177,93 @@ h2.hero_tit_prod{
 }
 
 /* CATEGORIAS */
-
-/* .categorias{
-
-} */
 .categorias{
-background-color: #fff;;
+  background-color: #fff;;
   width: 100%;
   
 }
+
 .contenedor_categorias{
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-background-color: #fff;;
+  background-color: #fff;;
   margin: 40px 0;
-  /* margin:30px 20px; */
+  width: 100%;
+}
+
+/* prmociones */
+.promociones{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.contenedor_promociones{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 40px 0;
+  /* width: 1024px; */
+  width: 95%;
   
 }
+
+/* artistas */
+.artistas{
+  background-color: #fff;;
+  width: 100%;
+  
+}
+
+.contenedor_artistas{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #fff;;
+  margin: 40px 0;
+  width: 100%;
+}
+
+
+
+.item_artista{ 
+  margin: 0 20px 25px 20px;
+  box-sizing: border-box;
+  width: 280px;
+  /* float: left; */
+  overflow:hidden;
+}
+
+
+.item_promociones{
+  margin: 0 20px 25px 20px;
+  box-sizing: border-box;
+  width: 280px;
+  /* float: left; */
+  overflow:hidden;
+  box-shadow: 0 2px 3px 0 rgba(0, 0,0,0.12);
+}
+/* promociones */
 
 .item_categoria{ 
   margin: 0 20px 25px 20px;
   box-sizing: border-box;
   width: 280px;
-  float: left;
+  /* float: left; */
   overflow:hidden;
   border: 1px solid  #d7d7d7;
 }
+.item_categoria:hover{
+	transform-style: preserve-3d;
+	/* transform: scale(1.02); */
+	transition: all ease 0.3s;
+}
+
 img.img_categoria{
   height: 50%;
 }
@@ -248,19 +327,7 @@ margin-top: -3px;
   font-weight: bold;
   padding: 0 8px;
 }
-.item-drum{
-  
-  margin: 0 20px 25px 20px;
-  box-sizing: border-box;
-  /* width: 301px; */
-  width: 280px;
-  float: left;
-  overflow:hidden;
-  /*position: relative;*/
-  /*border: 1px solid gray;*/
-  /*filter: blur(5px);*/
-  box-shadow: 0 2px 3px 0 rgba(0, 0,0,0.12);
-}
+
 .item-drum:hover img{
   transform:scale(1.1);
   transition-property: all;
@@ -278,17 +345,7 @@ img{
   color: white;
   padding: 8px 16px;
 }
-.no-margin{
-  margin-right: 0px;
-}
 
-/*bloque 3 #c2bfbf*/
-.contenedor_bateristas{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-}
 .texto1{
   margin-top: 30px ;
   margin-left: 15px;
@@ -328,7 +385,7 @@ h3{
   line-height: 1.2;
 
 }
-.contac{
+.leermas{
   background-color:#ebebeb ;
   padding:10px;
   text-align: center;
@@ -337,7 +394,7 @@ h3{
   font-size: 18px;
   transition: all 0.3s linear;
 }
-.contac:hover{
+.leermas:hover{
   background-color: #959595;
 }
 .no-margin{
@@ -437,4 +494,32 @@ h2.hero_tit_prod{
   border: 1px solid  #d7d7d7;
 
 } */
+
+}
+
+@media screen and (min-width: 1441px) {
+.contenedor_promociones{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* background-color: rgb(197, 138, 138);; */
+  margin: 40px 0;
+  /* width: 1024px; */
+  width: 65%;
+  
+}
+.title_section{
+  width: 65%;
+
+}
+.hero {
+  
+  height: 80vh;
+
+}
+.hero_contenedor {
+  width: 70%;
+
+}
 }
