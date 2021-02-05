@@ -440,9 +440,7 @@ footer{
 
 
 
-
-/* descuentos */
-
+/* ============= DESCUENTOS ============= */
 
 .descuentos{
   background-color: #fff;
@@ -455,45 +453,49 @@ footer{
   flex-wrap: wrap;
   background-color: #fff;;
   margin: 0px 5% 40px;
-  /* width: 100%; */
 }
-
 
 .item_descuentos{ 
   margin: 0 20px 25px 20px;
   box-sizing: border-box;
-  /* width: 280px; */
-  width: 263px;
-  /* float: left; */
+  width: 30%;
   overflow:hidden;
-  border: 1px solid  #d7d7d7;
+  /* border: 1px solid  #d7d7d7; */  
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
 }
 
-.item_descuentos:hover{
-	transform-style: preserve-3d;
-	/* transform: scale(1.02); */
-	transition: all ease 0.3s;
+
+.card_descuentos{
+  /* padding-bottom : 25px ; */
+  /* background-color: #fff; */
+  /* margin-top: -3px; */
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  }
+
+
+.card_descuentos_titulo{
+  font-size: 36px;
+  color: #fff;
+  font-weight: 400;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  text-shadow: 2px 1px #000;
+}
+.card_descuentos_mensaje{
+  font-size: 18px;
+  padding: 10px 20px ;
+  color: #fff;
+  text-shadow: 2px 1px #000;
 }
 
 img.img_descuentos{
   height: 50%;
 }
-.card_descuentos{
-  padding-bottom : 25px ;
-  background-color: #fff;
-  margin-top: -3px;
-  
-  }
-  
-.card_descuentos_titulo{
-  font-size: 16px;
-  color: #242424;
-  font-weight: 400;
-  padding: 14px 8px;
-  text-align: center;
-}
-
-
 
 /* ***************************** *
 *          RESPONSIVE            *
